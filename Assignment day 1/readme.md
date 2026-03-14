@@ -77,8 +77,3 @@ Include all of the following rules inside your system prompt.
 - A short write-up (~200 words) explaining your guardrailing approach and how the bot handles out-of-scope questions
 
 ---
-
-## Bonus Challenge *(Optional)*
-
-- Use OpenAI embeddings for **semantic search** so the bot can match user queries even when the wording differs from the FAQ
-- Add a **confidence threshold** so the bot falls back to the out-of-scope response when no FAQ entry is a strong match
